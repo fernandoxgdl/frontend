@@ -73,10 +73,9 @@ function Comentarios() {
     <div className="comentario-main">
 
       <div className="comentario-container">
-        <h2 className="comentario-titulo">Alguna duda?</h2>
+        <h2 className="comentario-titulo">Contactanos. ☎️📝</h2>
         <p className="Comentario-subtitulo">
-          Deja tu comentario y nos pondremos en contacto contigo lo antes
-          posible.
+          Deja tu comentario dudas, quejas o sugerencias.
         </p>
 
         <form className="comentario-form" onSubmit={handleSubmit}>
@@ -88,7 +87,7 @@ function Comentarios() {
               name="nombre"
               value={form.nombre}
               onChange={handleChange}
-              placeholder="Escribe tu Nombre Aqui..!"
+              placeholder="Nombre. . ."
               required
             />
           </div>
@@ -100,7 +99,7 @@ function Comentarios() {
               name="telefono"
               value={form.telefono}
               onChange={handleChange}
-              placeholder="Escribe tu Telefono Aqui..!"
+              placeholder="numero . . ."
               required
             />
           </div>
@@ -111,7 +110,7 @@ function Comentarios() {
               name="mensaje"
               value={form.mensaje}
               onChange={handleChange}
-              placeholder="Dinos como ayudarte..!"
+              placeholder="C u e n t a n o s . . !!"
               rows="5"
               required
             />

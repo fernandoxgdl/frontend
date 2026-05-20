@@ -6,7 +6,7 @@ import Login from "./pages/Login";
 import Home from "./pages/Home";
 import QuienesSomos from "./pages/QuienesSomos";
 import Mision from "./pages/Mision";
-import Vision from "./pages/Vision";
+import Vision from "./pages/UbicacionG";
 import Politicas from "./pages/Politicas";
 import Ubicacion from "./pages/Ubicacion";
 import Logo from "./Logo";
