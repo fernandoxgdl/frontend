@@ -1,0 +1,19 @@
+.mapa{
+  display:grid;
+ grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  align-items: center;
+  justify-content: center;
+  margin: 3em;
+  gap: 20px;
+  
+}
+
+.info-ubicacion{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.ubicacion{
+  max-width: 600px;
+}

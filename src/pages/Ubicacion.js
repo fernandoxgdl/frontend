@@ -1,3 +1,5 @@
+//este componente funge como primer pagina de esta ecommerce//
+
 function Ubicacion(){
  return(
   <div style={{ 
