@@ -1,6 +1,8 @@
 import "./maps.css";
 
 function Vision() {
+  const maps = process.env.REACT_APP_MAPS_KEY;
+
   return (
     <div className="mapa">
       <div className="ubicacion">
@@ -12,16 +14,17 @@ function Vision() {
           loading="lazy"
           allowFullScreen
           referrerPolicy="no-referrer-when-downgrade"
-          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCq_gUE1Ln1pA8Tl3e2fETMxDqR_zTHr4c&q=Punto+Sao+Paulo+Zapopan&zoom=15">
-
-          </iframe>
+          src={`https://www.google.com/maps/embed/v1/place?key=${maps}&q=Av.+de+las+Am%C3%A9ricas+1545-Piso+7,+Providencia,+44630+Guadalajara,+Jal.`}
+        ></iframe>
       </div>
 
       <div className="info-ubicacion">
-
         <div>
           <h2>Direccion</h2>
-          <p>Av. de las Américas 1545-Piso 7, Providencia, 44630 Guadalajara, Jal.</p>
+          <p>
+            Av. de las Américas 1545-Piso 7, Providencia, 44630 Guadalajara,
+            Jal.
+          </p>
         </div>
 
         <div>
@@ -34,9 +37,7 @@ function Vision() {
           <p>Telefono: 123 456 7890</p>
           <p>Email: info@modamx.com</p>
         </div>
-
       </div>
-
     </div>
   );
 }
