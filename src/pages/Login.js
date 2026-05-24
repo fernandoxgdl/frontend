@@ -1,20 +1,45 @@
-import React, { useState } from "react";
+import  { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
-function Login() {
-  const [usuario, setUsuario] = useState("");
+
+function Login({setEsAdmin}) {
+  
   const [password, setPassword] = useState("");
   const [mensaje, setMensaje] = useState("");
+  const [email, setEmail] = useState("");
+  const [cargando, setCargando] = useState(false);
+  const navigate = useNavigate();
 
-  const handleLogin = (e) => {
+
+  const handleLogin = async (e) => {
     e.preventDefault();
+    setCargando(true);
+    setMensaje("");
 
-
-    if (usuario === "admin" && password === "12345") {
-      setMensaje("Bienvenido Administrador");
-    } else {
-      setMensaje("Usuario o contraseña incorrectos");
+    try {
+      const respuesta = await fetch(`${process.env.REACT_APP_API_URL}/api/login`, {
+       method: "POST",
+       headers: {
+         "Content-Type": "application/json",
+       },
+       body: JSON.stringify({ email, password }),
+      });
+    
+      const data = await respuesta.json();
+      
+      if (respuesta.ok) {
+        setEsAdmin(true);
+        navigate("/admin");
+      } else {
+        setMensaje(data.error || "credenciale incorrectas");
+      }
+    } catch (error) {
+      setMensaje("Error de conexión");
+    } finally {
+      setCargando(false);
     }
   };
+
 
   return (
     <div style={{ padding:"20px", 
