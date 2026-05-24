@@ -12,18 +12,18 @@ function Login({ setEsAdmin }) {
   const handleLogin = async (e) => {
     e.preventDefault();
     setCargando(true);
-    setMensaje("");
+    setMensaje("un momento...");
 
     try {
-      const respuesta = await fetch(
+      const res = await fetch(
         `${process.env.REACT_APP_API_URL}/api/login`,
         {
           method: "POST",
           headers: {
-            "Content-Type": "application/json",
+            "Content-Type": "application/json"
           },
           body: JSON.stringify({ email, password }),
-        },
+        }
       );
 
       const data = await res.json();
@@ -62,7 +62,7 @@ function Login({ setEsAdmin }) {
       <form onSubmit={handleLogin}>
         <div>
           <input
-            type="text"
+            type="email"
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -84,10 +84,12 @@ function Login({ setEsAdmin }) {
 
         <br />
 
-        <button type="submit">Ingresar</button>
+       <button type="submit" disabled={cargando}>
+          {cargando ? "Verificando..." : "Ingresar"}
+        </button>
       </form>
 
-      <p>{mensaje}</p>
+      {mensaje && <p style={{ color: "red" }}>{mensaje}</p>}
     </div>
   );
 }

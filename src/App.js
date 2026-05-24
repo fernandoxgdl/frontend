@@ -2,7 +2,7 @@ import {
   HashRouter as Router,
   Routes,
   Route,
-  Navigate,
+  Navigate
 } from "react-router-dom";
 import { useState } from "react";
 
@@ -14,6 +14,7 @@ import Mision from "./pages/Mision";
 import Vision from "./pages/UbicacionG";
 import Politicas from "./pages/Politicas";
 import Ubicacion from "./pages/Ubicacion";
+import AdminPanel from "./pages/AdminPanel";
 import Logo from "./Logo";
 import "./App.css";
 import Chat from "./comp-chat/Chat";
@@ -24,9 +25,10 @@ import Valoracion from "./comp-rates/Valoracion";
 import Tienda from "./comp-tienda/Tienda";
 import Carrito from "./comp-tienda/Carrito";
 import CartFab from "./comp-tienda/cartfab";
-import AdminPanel from "./pages/AdminPanel";
+
 
 function App() {
+
   const [carrito, setCarrito] = useState({});
   const [esAdmin, setEsAdmin] = useState(false);
 
@@ -102,16 +104,8 @@ function App() {
             }
           />
 
-          <Route
-            path="/admin"
-            element={
-              esAdmin ? (
-                <AdminPanel setEsAdmin={setEsAdmin} />
-              ) : (
-                <Navigate to="/login" />
-              )
-            }
-          />
+          <Route path="/admin" element={esAdmin ? <AdminPanel setEsAdmin={setEsAdmin} />:<Navigate to="/login" />}/>
+
         </Routes>
 
         <CartFab totalItems={totalItems} />
