@@ -1,0 +1,179 @@
+[33mcommit b4335e161cfd6c7481d6185914a2f861f076cbe9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Sat May 23 21:55:37 2026 -0600
+
+    actualizando el login
+
+[33mcommit 6440030401f25d2f056ec4ca58160918c138343c[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Thu May 21 16:33:55 2026 -0600
+
+    errores de API KEY
+
+[33mcommit d8e0efe0de270579fb53e99b7c2e3ce811e82369[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Thu May 21 02:23:38 2026 -0600
+
+    correciones a CSP, eliminando tags duplicadas
+
+[33mcommit 67500d379ebbbc93dffa331b72e254544baf5b05[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Thu May 21 01:24:26 2026 -0600
+
+    pagina de ubicacion con mapa incrustado
+
+[33mcommit ab0638c344acd7f7defc6710ff4707ae3b337c12[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Tue May 19 18:41:47 2026 -0600
+
+    moficicaciones menores
+
+[33mcommit 88ac01ec7a736cb479cab75757919a82018e0307[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Fri May 8 04:34:39 2026 -0600
+
+    fixed cbox comentarios
+
+[33mcommit 098d2e9b8f0b94bf1f77af6bf5fae303c29d5bec[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Fri May 8 04:27:44 2026 -0600
+
+    UI para contador de comentarios 2
+
+[33mcommit db33822495d56acb7e432491ef48f3362f50c69b[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Fri May 8 04:04:44 2026 -0600
+
+    UI para contador de comentarios
+
+[33mcommit 8795f6fff8f9bc0b2a9a5003da3d7d2e0e60d01a[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Fri May 8 02:57:22 2026 -0600
+
+    fixind error 2
+
+[33mcommit d99c14a70873aa28e73569fd92649427a8684a83[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Fri May 8 02:50:01 2026 -0600
+
+    error fixed package.json
+
+[33mcommit 22b208e2d900e2ca19244e8a13e82456e5e5befa[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Fri May 8 02:37:34 2026 -0600
+
+    componente comentarios
+
+[33mcommit c68f5fb90a01b0a05a4533d10291153fe4b1cf07[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Thu May 7 20:47:51 2026 -0600
+
+    fixed to carrito src img
+
+[33mcommit feaeca8100cc936dfafae689447461d0aea36374[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Thu May 7 20:18:31 2026 -0600
+
+    fixed src img 3
+
+[33mcommit 783398eef54876cc256b9cd16d4e673d92131394[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Thu May 7 20:12:35 2026 -0600
+
+    fixed the src img 2
+
+[33mcommit f444ff30a0c010f7b430922049cad24c7ad819fd[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Thu May 7 20:04:49 2026 -0600
+
+    fixed the src img
+
+[33mcommit 75a05b0351ff87fbcec88f3de4cb8fe06d3d4332[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Thu May 7 17:14:20 2026 -0600
+
+    act to CcontenSsecurityPolicy
+
+[33mcommit 13bbc56c2b1c2df5fd739e4676e4984a879d4dbd[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Thu May 7 17:04:49 2026 -0600
+
+    errores de typeo
+
+[33mcommit c63f128adf581ac0581aa908d360d636af9a5b0c[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Thu May 7 16:17:34 2026 -0600
+
+    parche 2
+
+[33mcommit 036a7dbab0aeed7c1628bb96302f54a91b01d6a7[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Thu May 7 15:42:45 2026 -0600
+
+    configuracion de rutas
+
+[33mcommit 8909ec65b59a737a0ba46be02f5fb6a9d1fdc173[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Thu May 7 15:32:01 2026 -0600
+
+    parche de restriccion
+
+[33mcommit 6bf0c4cd2c24a6bb34402e343f9689532a17c1f0[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Mon May 4 22:21:21 2026 -0600
+
+    reemplazando localhost
+
+[33mcommit c6e2dc736bba6991cbc958bc1721bb41121a3bd7[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Wed Apr 22 05:00:55 2026 -0600
+
+    actividad 3.2 animaciones tienda virtual
+
+[33mcommit b3af4dfbf74af1f5ffe44d1a9847364e6d0f3270[m
+Author: armando <fernandoxgdl@gmail.com>
+Date:   Mon Mar 30 03:06:21 2026 -0600
+
+    requerimentos para unidad 3 primera act
+
+[33mcommit c293ae925e731efff16dfc281d7b8bd97e080122[m
+Author: fenando avalos <you@example.com>
+Date:   Sat Mar 21 20:36:26 2026 -0600
+
+    integracion de slideshow, site rate
+
+[33mcommit e4069e34380f0e6884a2eafad4e397271eb9e9ac[m
+Author: fenando avalos <you@example.com>
+Date:   Thu Mar 19 17:09:02 2026 -0600
+
+    version funcional, responsive
+
+[33mcommit 466fdcc5ea1ffaec3ed125d7b453c708c35019b2[m
+Author: fenando avalos <you@example.com>
+Date:   Thu Mar 19 03:19:16 2026 -0600
+
+    actualizado a tercera Act
+
+[33mcommit 5ccb4a19949a2b85cb63f951d3bfcf8b7e8a34cf[m
+Author: fenando avalos <you@example.com>
+Date:   Wed Mar 11 06:05:02 2026 -0600
+
+    incorporar chat FAQ redesSociales
+
+[33mcommit b56e40076a82eabe9da4d6df14522e5a8b0d7f1f[m
+Author: fenando avalos <you@example.com>
+Date:   Mon Mar 9 20:54:48 2026 -0600
+
+    ajustes esteticos
+
+[33mcommit 1916a3f4617e420f26c7c049e3447e6fcd425db0[m
+Author: fenando avalos <you@example.com>
+Date:   Mon Mar 9 19:39:57 2026 -0600
+
+    sexto intento
+
+[33mcommit b168c2894be1162d3fc5ded8f8524d8daf889ee0[m
+Author: fenando avalos <you@example.com>
+Date:   Mon Mar 9 19:05:48 2026 -0600
+
+    quinto intento
