@@ -17,6 +17,8 @@ function AdminPanel({ setEsAdmin }) {
       alignItems: "center",
       justifyContent: "center",
       gap: "20px",
+      border: "1px solid #000000",
+      borderRadius: "12px"
     }}>
       <h2>Panel de Administración</h2>
       <p>Bienvenido, Admin.</p>

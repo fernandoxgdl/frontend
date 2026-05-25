@@ -66,7 +66,7 @@ function Tienda({ agregar, totalItems }) {
             padding: "0 2%",
           }}
         >
-          {"REBAJAS".split("").map((letra, i) => (
+          {"TIENDA".split("").map((letra, i) => (
             <span key={i}>{letra}</span>
           ))}
         </div>

@@ -21,6 +21,7 @@ const prepStops = stops => {
   return { arr, count };
 };
 
+//el componente Animacion y GradientBlinds es la funcion que maneja la animacion de los banner's "50% de descuento y Rebajas"
 const GradientBlinds = ({
   className,
   dpr,

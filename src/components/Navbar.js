@@ -15,5 +15,5 @@ function Navbar(){
   </div>
  );
 }
-
 export default Navbar;
+// Este componente renderiza un navbar de enlaces de navegacion a traves de las paginas del sitio.

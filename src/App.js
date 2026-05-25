@@ -88,9 +88,7 @@ function App() {
           <Route path="/ubicacion" element={<Ubicacion />} />
           <Route path="/login" element={<Login setEsAdmin={setEsAdmin} />} />
           <Route path="/preguntas" element={<Preguntas />} />
-          <Route
-            path="/tienda"
-            element={<Tienda agregar={agregar} totalItems={totalItems} />}
+          <Route path="/tienda" element={<Tienda agregar={agregar} totalItems={totalItems} />}
           />
 
           <Route

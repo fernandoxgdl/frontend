@@ -46,7 +46,7 @@ function Login({ setEsAdmin }) {
       style={{
         padding: "20px",
         textAlign: "center",
-        minHeight: "70vh",
+        minHeight: "50vh",
         width: "60vw",
         position: "relative",
         marginRight: "auto",
@@ -55,6 +55,9 @@ function Login({ setEsAdmin }) {
         display: "flex",
         flexDirection: "column",
         rowGap: "20px",
+        border: "1px solid #000000",
+        borderRadius: "12px",
+        background: "#f0f0f0"
       }}
     >
       <h2>Login del Sistema</h2>
